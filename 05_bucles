@@ -1,0 +1,19 @@
+for num in range(1,11):
+    print("tabla del", num, "\n")
+    for num2 in range(1,11):
+        print(num, "*", num2, "=", num*num2)
+    print("\n")
+
+cont1 = 1
+cont2 = 1
+
+while cont1 <=10:
+    print("tabla del", cont1, "\n")
+    while cont2 <=10:
+        print(cont1, "x", cont2, "=", cont1*cont2)
+        cont2 +=1
+    print("\n")
+    cont1 += 1
+    cont2 = 1
+    
+
